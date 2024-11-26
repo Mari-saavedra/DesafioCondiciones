@@ -7,12 +7,10 @@ const borde = getComputedStyle(imagen).border
 imagen.addEventListener('click',() => {
     if (imagen.style.border == 'none')
     {
-        console.log("hola1   "+ borde)
         imagen.style.border =  '2px solid #ff0000'
     }
     else
     {
-        console.log("hola2   "+ borde)
         imagen.style.border =  'none'
     }
 })
@@ -29,8 +27,6 @@ let cantidad = 0
 
 btnVerifica.addEventListener('click',() => {
     cantidad = Number(cantidad1.value) + Number(cantidad2.value) + Number(cantidad3.value)
-    
-    console.log(cantidad)
 
     if (cantidad > 10)
     {
@@ -69,8 +65,6 @@ numSelect3.addEventListener('click', () => {
 
 btnIngresar.addEventListener('click',() => {
     pwd = num1 + num2 + num3
-
-    console.log(pwd)
 
     if (pwd == '911')
     {
