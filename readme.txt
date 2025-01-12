@@ -1,0 +1,1 @@
+Hola Linda, puse todo en un solo html y en un solo js
